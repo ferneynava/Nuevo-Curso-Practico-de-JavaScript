@@ -1,0 +1,28 @@
+//var arrays = ["Hola",2,3,4,5,6]
+//array(arrays);
+//function array (arrayEle){
+  //console.log("El primer elemento del array es: " + arrayEle[0])
+//}
+
+var arrays = ["Cursos" , "Platzi", "Escuelas"];
+array(arrays);
+function array (arraysEle){
+  for(let i = 0; i<arraysEle.length; i++){
+    console.log("Elemento número " + [i] + " es: "+ arraysEle[i])
+  }
+}
+
+var objetos = {
+	marca: "Toyota",
+  modelo: "Corola",
+  año: 2020
+} 
+
+objeto(objetos);
+
+function objeto (objetoEle){
+  for (let obje in objetoEle){
+  	console.log(objetoEle[obje]);  
+  }
+}
+

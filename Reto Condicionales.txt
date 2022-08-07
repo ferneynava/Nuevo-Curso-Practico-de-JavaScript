@@ -1,0 +1,38 @@
+//const tipoDeSuscripción = "ExpertPlus";
+
+//if(tipoDeSuscripción == "Free"){
+  //console.log("Solo puedes tomar los cursos gratis");
+//} else if (tipoDeSuscripción == "Basic"){
+  // console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+//} else if (tipoDeSuscripción == "Expert"){
+  // console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+//} else {
+ // console.log("Tú y alguien más pueden tomar TODOS los cursos de PLAtzi durante un año");
+//}
+
+//const tipoDeSuscripción1 = [
+  //{Plan: "Free", Beneficio: "Solo puedes tomar los cursos gratis"},
+  //{Plan: "Basic", Beneficio: "Puedes tomar casi todos los cursos de Platzi durante un mes"},
+  //{Plan: "Expert", Beneficio: "Puedes tomar casi todos los cursos de Platzi durante un año"},
+	//{Plan: "ExpertPlus", Beneficio: "Tú y alguien más pueden tomar TODOS los cursos de PLAtzi durante un año"}];
+
+//var Suscripcion = tipoDeSuscripción1.find(function(elemento){
+  //return elemento.Plan == "Basic"; 
+//});
+
+//console.log(Suscripcion.Beneficio);
+
+
+const tipoDeSuscripción2 =["Free", "Basic", "Expert", "ExpertPlus"]; 
+const Beneficio=["Solo puedes tomar los cursos gratis","Puedes tomar casi todos los cursos de Platzi durante un mes",  "Puedes tomar casi todos los cursos de Platzi durante un año", "Tú y alguien más pueden tomar TODOS los cursos de PLAtzi durante un año"]  
+
+for(var i=0; i<tipoDeSuscripción2.length; i++){
+  Beneficios(tipoDeSuscripción2[i]); 
+}
+
+function Beneficios (Suscripción){
+  if(Suscripción == "ExpertPlus"){
+    var posicion = tipoDeSuscripción2.indexOf(Suscripción);
+    console.log(Beneficio[posicion]);
+  }
+}

@@ -1,0 +1,11 @@
+function Suma (){
+  var suma = prompt("Cuanto es 2 + 2");
+	if(suma == 4){
+    console.log("Felicitaciones respuesta correcta");
+  } else {
+    console.log("Respuesta incorrecta sigue intentando");
+		Suma();
+  }
+}
+
+Suma();

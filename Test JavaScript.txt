@@ -1,0 +1,35 @@
+1️⃣Responde las siguientes preguntas en la sección de comentarios: 
+ 👉¿Qué es una variable y para qué sirve? 
+Un espacio reservado en memoria donde se almacena 
+información.  
+ 👉¿Cuál es la diferencia entre declarar e inicializar una variable? 
+Declarar: Se declara para reservar su espacio en memoria.
+Incializar: Poner el valor a esa variable ya declarada. 
+ 👉¿Cuál es la diferencia entre sumar números y concatenar strings?
+Suma números con operaciones matemáticas y se juntan dos textos para formar uno mismo. 
+👉¿Cuál operador me permite sumar o concatenar? 
+		**+**
+2️⃣Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+👉Nombre => String
+👉Apellido => String
+👉Nombre de usuario => String
+👉Edad => init
+👉Correo electronico => String
+👉Mayor de edad => Boolean 
+👉Dinero ahorrado => Float
+👉Deudas => float 
+
+3️⃣Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios. 
+![](https://i.ibb.co/TwSxdhR/raycast-untitled.png)
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+![](https://i.ibb.co/hsS7Shc/Captura-de-pantalla-2022-07-20-133257.png)
+++**Funciones**++
+1️⃣Responde las siguientes preguntas en la sección de comentarios:
+👉¿Qué es una función?
+Conjunto de sentencias que podemos utilizar para generar acciones con los valores que ya guardamos en nuestras variables. Funciones procedimiento o tarea. Un bloque de código que haceuna serie de procedimiento. 
+👉¿Cuándo me sirve usar una función en mi código?
+Cuando se repite varias lineas de codigo en el proyecto. 
+👉¿Cuál es la diferencia entre parámetros y argumentos de una función?
+Parametro es una variable que está en la definición de una función, argumento son los datos que se le pasan a los parametros de una función. 
+2️⃣Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+![](https://i.ibb.co/8KJddxT/raycast-untitled-1.png)
