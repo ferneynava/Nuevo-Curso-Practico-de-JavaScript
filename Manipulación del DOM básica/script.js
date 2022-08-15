@@ -27,7 +27,7 @@ h1.setAttribute("class", "rojo");                  // La propiedad serAttribute 
 h1.classList.add("rojo"); //La propiedad classList funciona directamente con las class(clases), podemos add (añadir) una nueva clase 
 h1.classList.remove("verde"); //La propiedad classList funciona directamente con las class(clases), podemos remove (eliminar) una clase especificada. 
 h1.classList.toggle("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo toggle que permite alternar entre agregar y eliminar un nombre de clase
-                                //de un elemento.  
+                                //de un elemento. Si la clase se encuentra devuelve un false y si no se encuentra devuelve un true
 h1.classList.contains("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo contains que devuelve true o false dependiendo si el elemento tiene la clase
                                 //verde
 input.value = "456";
