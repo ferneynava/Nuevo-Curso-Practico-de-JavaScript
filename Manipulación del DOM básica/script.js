@@ -20,15 +20,15 @@ console.log({
 });
 
 h1.innerHTML = "Ferney Nava <br> Educador </br>"; // La propiedad innerHTML permite modificar el HTML(codigo) que este dentro de nuestra etiqueta seleccionada. Permite insertar html. 
-//h1.innerText = "Ferney Nava <br> Educador </br>"; // La propiedad innerText permite modificar el HTML añadiendo solo TEXTO que este dentro de nuestra etiqueta seleccionada.
-//console.log(h1.getAttribute("class"));     //La propiedad getAttribute nos ayuda a leer algunos de los atributos que tenga nuestro elemento, en este caso el elemento es h1. 
-//h1.setAttribute("class", "rojo");                  // La propiedad serAttribute nos ayuda a modicar/establecer los atributos que tenga nuestro elemento, en este caso el elemento es h1.  El atributo class     
+h1.innerText = "Ferney Nava <br> Educador </br>"; // La propiedad innerText permite modificar el HTML añadiendo solo TEXTO que este dentro de nuestra etiqueta seleccionada.
+console.log(h1.getAttribute("class"));     //La propiedad getAttribute nos ayuda a leer algunos de los atributos que tenga nuestro elemento, en este caso el elemento es h1. 
+h1.setAttribute("class", "rojo");                  // La propiedad serAttribute nos ayuda a modicar/establecer los atributos que tenga nuestro elemento, en este caso el elemento es h1.  El atributo class     
                                                     // modifica su valor por rojo. 
 h1.classList.add("rojo"); //La propiedad classList funciona directamente con las class(clases), podemos add (añadir) una nueva clase 
 h1.classList.remove("verde"); //La propiedad classList funciona directamente con las class(clases), podemos remove (eliminar) una clase especificada. 
-//h1.classList.toggle("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo toggle que permite alternar entre agregar y eliminar un nombre de clase
+h1.classList.toggle("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo toggle que permite alternar entre agregar y eliminar un nombre de clase
                                 //de un elemento.  
-//h1.classList.contains("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo contains que devuelve true o false dependiendo si el elemento tiene la clase
+h1.classList.contains("verde"); //La propiedad classList funciona directamente con las class(clases), podemos aplicar el metodo contains que devuelve true o false dependiendo si el elemento tiene la clase
                                 //verde
 input.value = "456";
 
